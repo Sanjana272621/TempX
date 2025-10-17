@@ -52,7 +52,7 @@ export default function TemperatureDashboard({ initialLogs }: TemperatureDashboa
   const getUnacknowledgedBreaches = () => {
     return logs.filter(log => log.breach && !log.acknowledged).length;
   };
-
+  
   return (
     <div className="space-y-6">
       {/* Summary Cards */}
