@@ -1,3 +1,4 @@
+import 'dotenv/config'
 import { createClient } from '@supabase/supabase-js';
 
 // You'll need to set these environment variables

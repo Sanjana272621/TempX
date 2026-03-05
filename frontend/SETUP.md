@@ -85,7 +85,7 @@ SUPABASE_SERVICE_ROLE_KEY=your_supabase_service_role_key
 To populate your database with sample data for testing:
 
 ```bash
-# Install ts-node if you haven't already
+# Install ts-node 
 npm install -g ts-node
 
 # Run the seed script
