@@ -1,6 +1,6 @@
 import { getTemperatureLogs } from '@/lib/data';
 import TemperatureDashboard from '@/components/TemperatureDashboard';
-
+import { TemperatureTable } from "@/components/TemperatureTable";
 export default async function Home() {
   const temperatureLogs = await getTemperatureLogs();
 
