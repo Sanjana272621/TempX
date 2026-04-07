@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>ESP32 IoT Dashboard</title>
+  <link rel="stylesheet" href="/style.css" />
+</head>
+<body>
+  <div class="container">
+    <div class="card">
+      <h1>ESP32 IoT Prototype Dashboard</h1>
+      <p class="subtitle">Temperature and Humidity Monitor Demo</p>
+
+      <div class="grid">
+        <div class="metric">
+          <h2>Temperature</h2>
+          <div class="value">
+            <span id="temperature">--</span>
+            <span class="unit">°C</span>
+          </div>
+        </div>
+
+        <div class="metric">
+          <h2>Humidity</h2>
+          <div class="value">
+            <span id="humidity">--</span>
+            <span class="unit">%</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="status-row">
+        <span class="label">Status</span>
+        <span id="statusBadge" class="badge">LOADING</span>
+      </div>
+
+      <div class="footer-info">
+        <p>Uptime: <span id="uptime">--</span> seconds</p>
+        <p>Last updated: <span id="lastUpdated">--</span></p>
+      </div>
+    </div>
+  </div>
+
+  <script src="/script.js"></script>
+</body>
+</html>
